@@ -42,7 +42,6 @@
   }
 }
 
-
 /* 추가 스타일 */
 .auth-required {
   display: flex;
@@ -66,4 +65,29 @@
 
 .login-link:hover {
   background-color: #2563eb;
+}
+
+.chat-list-section {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.chat-header {
+  padding: 1rem 1.5rem;
+  height: 72px; /* 고정 높이 설정 */
+  border-bottom: 1px solid #e5e7eb;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.chat-header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
 }
